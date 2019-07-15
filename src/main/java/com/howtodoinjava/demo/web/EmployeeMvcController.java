@@ -24,7 +24,8 @@ public class EmployeeMvcController
 	@RequestMapping
 	public List<EmployeeEntity> getAllEmployees()
 	{
-		 return service.getAllEmployees();
+
+		return service.getAllEmployees();
 	}
 
 	@RequestMapping(path = {"/edit", "/edit/{id}"})
